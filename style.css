@@ -1,37 +1,57 @@
-
 body {
     background-color: hsl(30, 38%, 92%);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 
 p {
     font-size: 14px;
+    color: hsl(228, 12%, 48%);
 }
 
 .container {
     background-color: white;
-    width: 800px;
-    height: 500px;
+    width: 700px;
+    height: 450px;
     overflow: hidden;
-    border-radius:10px;
+    border-radius: 10px;
     margin-top: 100px;
     display: flex;
 }
-.font{
-    width: 50%;
+
+.font {
+    width: 45%;
     height: 100%;
-    padding: 20px;
+    padding: 35px;
 }
-.img{
-    width: 50%;
+
+.font h1 {
+    font-family: 'Fraunces', serif;
+    color: black;
+}
+
+#prix {
+    color: green;
+    font-size: 2em;
+    font-family: 'Fraunces', serif;
+
+}
+
+.old-prix {
+    padding-left: 25px;
+    display: inline;
+}
+
+.img {
+    width: 55%;
     height: 100%;
     background-image: url('images/image-product-desktop.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
