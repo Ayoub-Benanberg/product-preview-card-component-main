@@ -17,18 +17,6 @@ p {
 }
 
 
-#row {
-    border-radius: 10px; 
-    overflow: hidden;
-  }
-
-  #row #img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-
-
 .attribution {
     margin-top: 20px;
     font-size: 11px;
