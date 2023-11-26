@@ -1,9 +1,11 @@
-body {
+.bg {
     background-color: hsl(30, 38%, 92%);
 }
 
 #row {
     margin-top: 55px;
+    overflow: hidden;
+    border-radius: 20px;
 }
 
 p {
@@ -13,6 +15,18 @@ p {
 #prix {
     font-size: 3em;
 }
+
+
+#row {
+    border-radius: 10px; 
+    overflow: hidden;
+  }
+
+  #row #img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 
 
 .attribution {
